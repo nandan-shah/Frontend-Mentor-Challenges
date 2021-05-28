@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    margin: 0;
+    padding: 3rem 0;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Alata', sans-serif;
+    font-weight: 500;
+}
+.navlogo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:  hsl(0, 0%, 100%);
+    font-size: 25px;
+}
+.navtext ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 15px;
+}
+.navtext ul a{
+    margin-left: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+.navtext ul a:hover{
+    border-bottom: 3px solid white;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 180px;
+    height: 680px;
+    width: 100%;
+    min-width: 1350px;
+}
+.intro{
+    background-image: url(images/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-content-box{
+    height: 20rem;
+  width: 40rem;
+  margin-top: 9rem;
+    border: 2px solid white;
+    padding: .8rem 3rem;
+   text-align: left;
+   color: hsl(0, 0%, 100%);
+font-size: 2rem;
+font-family:Josefin Sans, sans-serif ;
+}
+.sec2{
+    position: relative;
+}
+.vr{
+    margin: 9rem 0;
+    background-image: url(images/desktop/image-interactive.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+.vr-text{
+    background-color:white;
+    height: 480px;
+    width: 605px;
+    position: absolute;
+    top:12.5rem;
+    right: 0;
+    margin-right:180px;
+    z-index: 1;
+    padding-left: 80px;
+    padding-top: 18px;
+}
+.sec2-head{
+    color: hsl(0, 0%, 41%);
+    font-size: 3.5rem;
+    font-family:Josefin Sans, sans-serif ;
+}
+.sec2-details{
+    color: hsl(0, 0%, 51%);
+    font-size: 17px;
+    font-family:'Alata', sans-serif;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a {
+     color: hsl(0, 3%, 14%);
+     }
+
+
+
+.footer{
+    background-color: black;
+    height: 200px; 
+    padding: 0 180px;
+    margin: 100px auto 0 auto;
+    width: 100%;
+    min-width: 1350px;
+}
+
+.navbar-foot{
+    display: flex;
+    margin: 0 ;
+    height: 70px;
+    padding: 1rem 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.navimages ul{
+    display: flex;
+    margin-bottom: 0;
+}
+
+.navimages ul li{
+    margin-left: 25px;
+}
+.navimages ul li:hover{
+    border-bottom: 3px solid white;
+}
+.copyright{
+    color:white;
+}
+.right ul a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    margin-left: 0;
+    margin-right: 25px;
+}
+
+.img-1{
+  background-image:  url(images/desktop/image-deep-earth.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.img-2{
+    background-image: url(images/desktop/image-night-arcade.jpg);  
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.img-3{
+    background-image:  url(images/desktop/image-soccer-team.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.img-4{
+    background-image: url(images/desktop/image-grid.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.img-5{
+    background-image: url(images/desktop/image-from-above.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.img-6{
+    background-image: url(images/desktop/image-pocket-borealis.jpg);
+    background-repeat: no-repeat;
+ 
+}
+.img-7{
+    background-image: url(images/desktop/image-curiosity.jpg);
+    background-repeat: no-repeat;
+    
+}
+.img-8{
+    background-image: url(images/desktop/image-fisheye.jpg);
+    background-repeat: no-repeat;
+  
+}
+#images{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.creaction-images-text{
+    
+}
+.creation{
+    padding: 0 180px;
+    margin: 0  auto;
+    width: 100%;
+    min-width: 1350px;
+}
+
+.img-hov{
+    position: relative;
+    height: 450px;
+    width: 260px;
+    color:white;
+}
+.img-hov:hover{
+    opacity: .3;
+}
+.creaction-images-text:hover
+{
+    color:black;
+}
+.creaction-images-text{
+position: absolute;
+bottom: 1rem;
+left:1.5rem;
+z-index: 1;
+font-size: 2.2rem;
+font-family:Josefin Sans, sans-serif ;
+}
+.s3head{
+    margin: 0;
+    display: flex;
+    color: hsl(0, 0%, 41%);
+    font-family:Josefin Sans;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.see{
+    border: 2px solid hsl(0, 0%, 51%);
+   height: 40px;
+   width: 110px;
+   margin-top: 15px;
+   padding: 7px 28px;
+    font-size: 15px;
+    font-family:'Alata', sans-serif;
+}
+
+.see:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid hsl(0, 0%, 0%);
+    cursor: pointer;
+}
