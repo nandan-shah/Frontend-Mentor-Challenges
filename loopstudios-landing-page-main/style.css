@@ -20,7 +20,7 @@ body{
     display: flex;
     align-items: center;
     text-decoration: none;
-    color:  hsl(0, 0%, 100%);
+    color:  #ffffff;
     font-size: 25px;
 }
 .navtext ul{
@@ -172,17 +172,18 @@ font-family:Josefin Sans, sans-serif ;
 .img-6{
     background-image: url(images/desktop/image-pocket-borealis.jpg);
     background-repeat: no-repeat;
+    height: 100%;
  
 }
 .img-7{
     background-image: url(images/desktop/image-curiosity.jpg);
     background-repeat: no-repeat;
-    
+    height: 100%;
 }
 .img-8{
     background-image: url(images/desktop/image-fisheye.jpg);
     background-repeat: no-repeat;
-  
+    height: 100%;
 }
 #images{
     display: flex;
@@ -207,11 +208,10 @@ font-family:Josefin Sans, sans-serif ;
     color:white;
 }
 .img-hov:hover{
-    opacity: .3;
+    color:rgba(0, 0, 0,1);
 }
-.creaction-images-text:hover
-{
-    color:black;
+.img:hover{
+    opacity: .3;
 }
 .creaction-images-text{
 position: absolute;
